@@ -1,0 +1,33 @@
+.welcome__descr {
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 135px;
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 30px;
+    }
+}
+
+.section-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.welcome__text {
+    width: 100%;
+    max-width: 530px;
+    font-size: 14px;
+    & p {
+        margin-bottom: 20px;
+        font-weight: 300;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    @include tablets() {
+        width: 50%;
+    }
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        max-width: none;
+    }
+}

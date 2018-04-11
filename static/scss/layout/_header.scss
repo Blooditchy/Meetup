@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    margin-bottom: 115px;
+}
+
+.header__logo {
+    margin-right: auto;
+}
+
+.logo {
+    display: block;
+    width: 100%;
+    max-width: 230px;
+}

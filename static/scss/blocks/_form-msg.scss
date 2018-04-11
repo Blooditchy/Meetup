@@ -1,0 +1,47 @@
+.contact__msg {
+    padding-top: 60px;
+    padding-right: 70px;
+    padding-bottom: 50px;
+    width: 51%;
+    @media only screen and (max-width: 768px) {
+        width: 100%;
+        padding-top: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+
+.form__input_width {
+    width: 100%;
+}
+
+.form__message {
+    height: 255px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #BEBEBE;
+    color: #6c6c6c;
+    outline: none;
+    resize: none;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &:focus {
+        border: 1px solid #90D23D;
+    }
+}
+
+.form__btn_color-width {
+    width: 100%;
+    background-color: #000;
+    font-weight: 400;
+    border: 1px solid transparent;
+    transition: .4s;
+    &:hover {
+        background-color: transparent;
+        color: #000;
+        border: 1px solid #000;
+    }
+}

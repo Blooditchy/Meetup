@@ -1,0 +1,38 @@
+.sponsor {
+    background-color: #4B4D4F;
+    min-height: 700px;
+    padding-top: 170px;
+    @media only screen and (max-width: 480px) {
+        padding-top: 200px;
+    }
+}
+
+.sponsor__content {
+    max-width: 630px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsor__text {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 45px;
+    & p {
+        margin-bottom: 15px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.sponsor__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.sponsor-btn {
+    padding: 16px 45px;
+}

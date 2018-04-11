@@ -1,0 +1,15 @@
+.hero {
+    background-color:#4A454B;
+    position: relative;
+}
+
+.hero__bottom-line {
+    position: absolute;
+    height: 180px;
+    width: 102%;
+    background-color: #fff;
+    transform: rotate(-3deg);
+    transform-origin: 0 0;
+    z-index: 2;
+}
+

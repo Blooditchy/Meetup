@@ -1,0 +1,27 @@
+.wrapper {
+    position: relative;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1030px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+    // @include tablets {
+    //     max-width: 720px;
+    // }
+    // @include phones {
+    //     max-width: 460px;
+    // }
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
