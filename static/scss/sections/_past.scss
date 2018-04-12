@@ -1,25 +1,25 @@
 .past {
-    padding-top: 150px;
-    padding-bottom: 90px;
-    max-width: 1170px;
+    padding-top: rem(150px);
+    padding-bottom: rem(90px);
+    max-width: rem(1170px);
     margin: 0 auto;
     @media only screen and (max-width: 768px) {
-        padding-top: 45px;
+        padding-top: rem(45px);
     }
 }
 
 .past__descr {
-    max-width: 630px;
-    margin-bottom: 105px;
+    max-width: rem(630px);
+    margin-bottom: rem(105px);
 }
 
 .past__text {
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 300;
 }
 
 .past__gallery {
-    margin-bottom: 100px;
+    margin-bottom: rem(100px);
 }
 
 .past__gallery-row {
@@ -37,7 +37,7 @@
 .past__gallery-pic {
     width: 100%;
     height: 100%;
-    max-width: 670px;
+    max-width: rem(670px);
 }
 
 .past__gallery-link {
@@ -53,12 +53,12 @@
 .btn-past {
     background-color: #373737;
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: rem(22px);
     font-weight: 400;
-    padding: 15px 45px;
+    padding: rem(15px) rem(45px);
     border: none;
     &:hover {
         background-color: #90d23d;
-        box-shadow: 0px 5px 10px 0px rgba(0,0,0, .7);
+        box-shadow: rem(0px) rem(5px) rem(10px) rem(0px) rgba(0,0,0, .7);
     }
 }

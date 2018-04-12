@@ -1,5 +1,5 @@
 .stuff {
-    margin-bottom: 160px;
+    margin-bottom: rem(160px);
     @media only screen and (max-width: 768px) {
         margin-bottom: 0;
     }
@@ -11,7 +11,7 @@
 
 .stuff__row-head {
     background-color: #A3CC40;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: rem(10px) rem(10px) rem(0px) rem(0px);
 }
 
 .stuff__row_bg-color {
@@ -19,18 +19,18 @@
 }
 
 .stuff__row-bottom_radius {
-    border-radius: 0px 0px 10px 10px;
+    border-radius: rem(0px) rem(0px) rem(10px) rem(10px);
 }
 
 .stuff__title-time, .stuff__title-text {
     color: #fff;
-    font-size: 30px;
+    font-size: rem(30px);
     font-weight: 700;
     display: inline-block;
     vertical-align: middle;
-    padding: 22px 0;
+    padding: rem(22px) 0;
     @media only screen and (max-width: 480px) {
-        font-size: 22px;
+        font-size: rem(22px);
     }
 }
 
@@ -47,11 +47,11 @@
 }
 
 .stuff__item {
-    padding: 22px 0;
-    font-size: 22px;
+    padding: rem(22px) 0;
+    font-size: rem(22px);
     color: #fff;
     @media only screen and (max-width: 768px) {
-        font-size: 15px;
+        font-size: rem(15px);
     }
 }
 
@@ -75,16 +75,20 @@
     display: inline-block;
     vertical-align: middle;
     font-size: 0;
-    width: 33px;
-    height: 34px;
+    width: rem(33px);
+    height: rem(34px);
     background: url(../img/icon/more-icon.png) center center no-repeat;
 }
 
 .stuff__msg {
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 300;
-    margin: 40px 100px;
+    margin: rem(40px) rem(100px);
     text-align: center;
+    @media screen and (max-width: 480px) {
+       margin-left: 0;
+       margin-right: 0;
+    }
 }
 
 .hide-text {

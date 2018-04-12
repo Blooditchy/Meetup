@@ -1,9 +1,9 @@
 .form {
     position: absolute;
     right: 0;
-    top: -260px;
+    top: rem(-260px);
     width: 100%;
-    max-width: 430px;
+    max-width: rem(430px);
     background-color: #fff;
     // border: 0px solid #DBDADA;
     box-shadow: 0px 2px 1px rgba(0,0,0,.5); 
@@ -13,37 +13,40 @@
         position: static;
         max-width: none;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-        margin-bottom: 30px;
+        margin-bottom: rem(30px);
+    }
+    @media screen and (max-width: 480px) {
+        margin-bottom: rem(100px);
     }
 }
 
 .form__inner {
     display: flex;
     flex-direction: column;
-    padding: 30px 30px;
+    padding: rem(30px) rem(30px);
     @media only screen and (max-width: 768px) {
         width: 100%;
     }
 }
 
 .form__title {
-    font-size: 30px;
+    font-size: rem(30px);
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
     text-align: center;
 }
 
 .form__input {
-    padding: 15px 15px;
-    width: 370px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 1px solid #BEBEBE;
+    padding: rem(15px) rem(15px);
+    width: rem(370px);
+    margin-bottom: rem(20px);
+    border-radius: rem(10px);
+    border: rem(1px) solid #BEBEBE;
     outline: none;
-    font-size: 19px;
+    font-size: rem(19px);
     color: #6c6c6c;
     &:focus {
-        border: 1px solid #90D23D;
+        border: rem(1px) solid #90D23D;
     }
     @media only screen and (max-width: 768px) {
         width: 100%;
@@ -53,12 +56,12 @@
 .form__btn {
     border: none;
     background-color: #90D23D;
-    padding: 20px 0;
-    border-radius: 10px;
+    padding: rem(20px) 0;
+    border-radius: rem(10px);
     color: #fff;
     font-weight: 700;
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: rem(22px);
+    margin-bottom: rem(20px);
     cursor: pointer;
     &:hover {
         background-color: rgb(130, 192, 54);
@@ -66,10 +69,10 @@
 }
 
 .form__text {
-    max-width: 230px;
+    max-width: rem(230px);
     display: block;
     text-align: center;
     margin: 0 auto;
-    font-size: 15px;
+    font-size: rem(15px);
     color: #6c6c6c;
 }

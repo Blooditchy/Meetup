@@ -18,9 +18,9 @@ $(document).ready(function(){
             $(this).parents('.stuff__item').siblings('.hide-text').toggleClass('show-text').slideToggle(400);
        });
 
-}); // конец ready
+});
+});
 
-// open-map==============================================
 $(document).ready(function(){
     var contactInfo = $('.contact__form');
     var btnInfo = $('.btn-info');
@@ -41,22 +41,3 @@ $(document).ready(function(){
         });
     });
 });//конец ready
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-});

@@ -10,61 +10,60 @@
 .icon__item {
     width: 15%;
     position: relative;
+    @media screen and (max-width: 480px) {
+        width: 100%;
+    }
 }
 
 .icon-pic {
-    max-width: 100%;
+    width: 100%;
 }
 
 .icon__item_transform-1 {
-    top: 52px;
-    left: -6px;
-    @media only screen and (max-width: 480px) {
-        top: 25px;
-        left: -6px;
+    top: rem(52px);
+    left: rem(-6px);
+    @media screen and (max-width: 480px) {
+        top: rem(20px);
+        left: rem(-10px);
     }
 }
 
 .icon__item_transform-2 {
-    top: 38px;
-    left: -53px;
+    top: rem(38px);
+    left: rem(-53px);
     z-index: -1;
-    @media only screen and (max-width: 480px) {
-        top: 20px;
-        left: -31px;
-        z-index: -1;
+    @media screen and (max-width: 480px) {
+        top: rem(20px);
+        left: rem(-10px);
     }
 }
 
 .icon__item_transform-3 {
-    top: 22px;
-    left: -94px;
+    top: rem(22px);
+    left: rem(-94px);
     z-index: -2;
-    @media only screen and (max-width: 480px) {
-        top: 13px;
-        left: -51px;
-        z-index: -2;
+    @media screen and (max-width: 480px) {
+        top: rem(20px);
+        left: rem(-10px);
     }
 }
 
 .icon__item_transform-4 {
-    top: 19px;
-    left: -123px;
+    top: rem(19px);
+    left: rem(-123px);
     z-index: -3;
-    @media only screen and (max-width: 480px) {
-        top: 12px;
-        left: -78px;
-        z-index: -3;
+    @media screen and (max-width: 480px) {
+        top: rem(20px);
+        left: rem(-10px);
     }
 }
 
 .icon__item_transform-5 {
-    top: 13px;
-    left: -155px;
+    top: rem(13px);
+    left: rem(-155px);
     z-index: -4;
     @media only screen and (max-width: 480px) {
-        top: 8px;
-        left: -97px;
-        z-index: -4;
+        top: rem(20px);
+        left: rem(-10px);
     }
 }

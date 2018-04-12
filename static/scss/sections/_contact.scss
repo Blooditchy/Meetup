@@ -1,9 +1,9 @@
 .contact {
     background:#000 url(../img/bg/contact/map.jpg) no-repeat center center;
     background-size: cover;
-    padding: 38px 0px;
+    padding: rem(38px) rem(0px);
     position: relative;
-    min-height: 660px;
+    min-height: rem(660px);
     &:after {
         position: absolute;
         content: "";
@@ -19,12 +19,12 @@
 
 .contact__form {
     width: 100%;
-    max-width: 970px;
+    max-width: rem(970px);
     margin: 0 auto;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
-    border-radius: 50px;
+    border-radius: rem(50px);
     z-index: 100;
     position: relative;
     @media only screen and (max-width: 768px) {
@@ -35,11 +35,10 @@
 
 .back-btn {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: rem(20px);
+    right: rem(20px);
     z-index: 100;
     display: none;
-
 }
 
 

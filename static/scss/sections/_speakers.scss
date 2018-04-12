@@ -1,14 +1,17 @@
 .speakers {
-    padding-top: 130px;
+    padding-top: rem(130px);
+    @media screen and (max-width: 480px) {
+        padding-top: rem(60px);
+    }
 }
 
 .speakers__descr {
-    margin-bottom: 60px;
+    margin-bottom: rem(60px);
 }
 
 .speakers__text {
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 300;
-    max-width: 600px;
+    max-width: rem(600px);
     color: #242424;
 }

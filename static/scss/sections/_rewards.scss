@@ -1,6 +1,5 @@
 .rewards {
     background-color: #4b4d4f;
-    min-height: 900px;
 }
 
 .section-title_white {
@@ -9,31 +8,38 @@
 
 .section__top-line {
     position: absolute;
-    height: 180px;
+    height: rem(180px);
     width: 102%;
     background-color: #fff;
     transform: rotate(-3deg);
     transform-origin: 0 0;
     z-index: 2;
-    left: -9px;
+    left: rem(-9px);
     top: 0;
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
 }
+
 .section__bottom-line {
     position: absolute;
-    height: 180px;
+    height: rem(180px);
     width: 102%;
-    bottom: -170px;
+    bottom: rem(-170px);
     background-color: #fff;
     transform: rotate(-3deg);
     transform-origin: 0 0;
     z-index: 2;
+    @media screen and (max-width: 480px) {
+        display: none;
+    }
 }
 
 .rewards__img {
     float: left;
     width: 30%;
     position: relative;
-    top: -75px;
+    top: rem(-75px);
     left: 0;
     @media only screen and (max-width: 768px) {
         display: none;
@@ -41,8 +47,8 @@
 }
 
 .rewards__pic {
-    width: 354px;
-    height: 357px;
+    width: rem(354px);
+    height: rem(357px);
 }
 
 .rewards__content {
@@ -50,19 +56,23 @@
     width: 67%;
     text-align: right;
     padding-top: 30%;
-    @media only screen and (max-width: 768px) {
-        padding-top: 200px;
+    padding-bottom: 30%;
+    @media screen and (max-width: 480px) {
+        float: none;
+        text-align: left;
+        width: 100%;
+        padding: 20% 0;
     }
 }
 
 .rewards__descr {
     color: #fff;
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 300;
     opacity: .9;
-    margin-bottom: 40px;
+    margin-bottom: rem(40px);
     & p {
-        margin-bottom: 15px;
+        margin-bottom: rem(15px);
         &:last-child {
             margin-bottom: 0;
         }
