@@ -17,8 +17,7 @@ $(document).ready(function(){
             e.preventDefault();
             $(this).parents('.stuff__item').siblings('.hide-text').toggleClass('show-text').slideToggle(400);
        });
-
-});
+    });
 });
 
 $(document).ready(function(){
@@ -40,4 +39,4 @@ $(document).ready(function(){
             'right' : '20'
         });
     });
-});//конец ready
+}); // конец ready

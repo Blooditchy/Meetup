@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 45px;
-    margin-bottom: 115px;
+    padding-top: rem(45px);
+    margin-bottom: rem(115px);
 }
 
 .header__logo {
@@ -13,5 +13,5 @@
 .logo {
     display: block;
     width: 100%;
-    max-width: 230px;
+    max-width: rem(230px);
 }

@@ -71,8 +71,8 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 45px;
-  margin-bottom: 115px; }
+  padding-top: 2.8125rem;
+  margin-bottom: 7.1875rem; }
 
 .header__logo {
   margin-right: auto; }
@@ -80,16 +80,16 @@ a {
 .logo {
   display: block;
   width: 100%;
-  max-width: 230px; }
+  max-width: 14.375rem; }
 
 .footer {
   background-color: #90D23D;
-  padding: 40px 0px; }
+  padding: 2.5rem 0rem; }
 
 .footer__socials {
-  max-width: 435px;
+  max-width: 27.1875rem;
   margin: 0 auto;
-  margin-bottom: 30px; }
+  margin-bottom: 1.875rem; }
 
 .social__list.social__list_width {
   width: 100%;
@@ -98,39 +98,39 @@ a {
   justify-content: center; }
 
 .social__link-footer-fb {
-  width: 47px;
-  height: 47px;
+  width: 2.9375rem;
+  height: 2.9375rem;
   background: url(../img/icon/sprite/sprite-fr.png);
   background-repeat: no-repeat;
-  background-position: -77px -78px; }
+  background-position: -4.8125rem -4.875rem; }
 
 .social__link-footer-tw {
-  width: 47px;
-  height: 47px;
+  width: 2.9375rem;
+  height: 2.9375rem;
   background: url(../img/icon/sprite/sprite-fr.png);
   background-repeat: no-repeat;
-  background-position: -10px -78px; }
+  background-position: -0.625rem -4.875rem; }
 
 .social__link-footer-in {
-  width: 47px;
-  height: 47px;
+  width: 2.9375rem;
+  height: 2.9375rem;
   background: url(../img/icon/sprite/sprite-fr.png);
   background-repeat: no-repeat;
-  background-position: -77px -10px; }
+  background-position: -4.8125rem -0.625rem; }
 
 .social__link-footer-gg {
-  width: 47px;
-  height: 47px;
+  width: 2.9375rem;
+  height: 2.9375rem;
   background: url(../img/icon/sprite/sprite-fr.png);
   background-repeat: no-repeat;
-  background-position: -10px -10px; }
+  background-position: -0.625rem -0.625rem; }
 
 .social__link-footer-tm {
-  width: 47px;
-  height: 47px;
+  width: 2.9375rem;
+  height: 2.9375rem;
   background: url(../img/icon/sprite/sprite-fr.png);
   background-repeat: no-repeat;
-  background-position: -144px -10px; }
+  background-position: -9rem -0.625rem; }
 
 .social__link-footer-fb,
 .social__link-footer-tw,
@@ -152,9 +152,9 @@ a {
 .footer__text {
   margin: 0 auto;
   width: 100%;
-  max-width: 435px;
+  max-width: 27.1875rem;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #fff;
   font-weight: 300; }
 
@@ -171,8 +171,8 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  width: 31px;
-  height: 20px;
+  width: 1.9375rem;
+  height: 1.25rem;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s; }
