@@ -1,13 +1,13 @@
 .btn {
     display: inline-block;
     padding: rem(20px) rem(25px);
-    background-color: #90d23d;
+    background-color: $Green;
     border-radius: rem(14px);
-    border: rem(1px) solid #90d23d;
+    border: rem(1px) solid $Green;
     color: #fff;
     transition: .5s ease;
     &:hover {
         background-color: transparent;
-        box-shadow: rem(0px) rem(0px) rem(10px) rem(2px) rgba(#90d23d, 0.5);
+        box-shadow: rem(0px) rem(0px) rem(10px) rem(2px) rgba($Green, 0.5);
     }
 }
