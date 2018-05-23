@@ -52,6 +52,9 @@
     right: rem(20px);
     top: rem(30px);
     display: none;
+    &:hover .hum-menu_line {
+        background-color: #81B44D;
+    }
     @media screen and (max-width: 768px) {
         display: inline-block;
     }
@@ -63,4 +66,5 @@
     margin-bottom: rem(5px);
     width: rem(30px);
     height: rem(3px);
+    transition: all .4s ease-in-out; 
 }

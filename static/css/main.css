@@ -539,6 +539,8 @@ a {
   right: 1.25rem;
   top: 1.875rem;
   display: none; }
+  .hum-menu:hover .hum-menu_line {
+    background-color: #81B44D; }
   @media screen and (max-width: 768px) {
     .hum-menu {
       display: inline-block; } }
@@ -548,7 +550,10 @@ a {
   background-color: #fff;
   margin-bottom: 0.3125rem;
   width: 1.875rem;
-  height: 0.1875rem; }
+  height: 0.1875rem;
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out; }
 
 .hero__timer {
   padding-top: 10px;
