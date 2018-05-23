@@ -4,6 +4,9 @@
     padding: rem(38px) rem(0px);
     position: relative;
     min-height: rem(660px);
+}
+
+.contact__black {
     &:after {
         position: absolute;
         content: "";
@@ -12,7 +15,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: rgba(#000, 0.5);
+        background: rgba(0,0,0,.5);
         z-index: 0;
     }
 }
