@@ -1,6 +1,9 @@
 .hero {
     background-color:#4A454B;
     position: relative;
+    background: url('../img/bg/bg-face.jpg') center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .hero__bottom-line {
@@ -12,6 +15,9 @@
     transform-origin: 0 0;
     z-index: 2;
     @media screen and (max-width: 480px) {
+        display: none;
+    }
+    @media screen and (max-width: 768px) {
         display: none;
     }
 }

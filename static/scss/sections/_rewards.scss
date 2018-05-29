@@ -1,5 +1,8 @@
 .rewards {
     background-color: #4b4d4f;
+    background: url('../img/bg/bg-smile.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .section-title_white {
@@ -70,6 +73,7 @@
     font-size: rem(14px);
     font-weight: 300;
     opacity: .9;
+    text-shadow: 2px 2px 7px black;
     margin-bottom: rem(40px);
     & p {
         margin-bottom: rem(15px);

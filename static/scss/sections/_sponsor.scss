@@ -1,5 +1,8 @@
 .sponsor {
     background-color: #4B4D4F;
+    background: url('../img/bg/bg-sponsor.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
     min-height: rem(700px);
     padding-top: rem(170px);
     @media only screen and (max-width: 480px) {
