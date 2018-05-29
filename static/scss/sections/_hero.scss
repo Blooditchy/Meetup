@@ -4,6 +4,10 @@
     background: url('../img/bg/bg-face.jpg') center center;
     background-size: cover;
     background-attachment: fixed;
+    @media screen and (max-width: 480px) {
+        background: url('../img/bg/bg-face-small.jpg') center center;
+        background-attachment: fixed;
+    }
 }
 
 .hero__bottom-line {

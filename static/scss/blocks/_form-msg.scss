@@ -31,6 +31,9 @@
     &:focus {
         border: rem(1px) solid #90D23D;
     }
+    @media screen and (max-width: 480px) {
+        height: rem(100px);
+    }
 }
 
 .form__btn_color-width {
