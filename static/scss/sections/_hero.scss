@@ -1,11 +1,11 @@
 .hero {
     background-color:#4A454B;
     position: relative;
-    background: url('../img/bg/bg-face.jpg') center center;
+    background: url('../img/bg/bg-face.jpg') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     @media screen and (max-width: 480px) {
-        background: url('../img/bg/bg-face-small.jpg') center center;
+        background: url('../img/bg/bg-face-small.jpg') top center no-repeat;
         background-attachment: fixed;
     }
 }
